@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>DNA Mutation Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>DNA Mutation Analyzer</h1>
+
+```
+<form method="post">
+    <label>Sequence 1:</label><br>
+    <textarea name="Seq1" placeholder="Enter first DNA sequence" required></textarea><br><br>
+
+    <label>Sequence 2:</label><br>
+    <textarea name="Seq2" placeholder="Enter second DNA sequence" required></textarea><br><br>
+
+    <button type="submit">Compare</button>
+</form>
+
+{% if result_text %}
+    <h3>{{ result_text }}</h3>
+{% endif %}
+
+{% if img %}
+    <img src="data:image/png;base64,{{ img }}">
+{% endif %}
+```
+
+</div>
+
+</body>
+</html>
