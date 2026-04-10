@@ -18,8 +18,8 @@ HTML (templates)
 
 How to Run Locally
 1. Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/samuelkrull/dna-mutation-analyzer-project
+[cd your-repo-name](https://github.com/samuelkrull/dna-mutation-analyzer-project)
 
 3. Install dependencies
 pip install -r requirements.txt
